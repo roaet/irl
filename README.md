@@ -66,7 +66,7 @@ The breakdown, using REST-JSON executor, is as follows:
   
         Expects a noun or nouns and will translate to POST.
 
-* *a* (ordinal)
+* *a* (cardinal)
   
         'a' is a singular, equivalent to 1, one, 'a single', etc.
 
@@ -76,7 +76,7 @@ The breakdown, using REST-JSON executor, is as follows:
         resource for a cog, such as /v1.0/cogs.
 
 * *with* (relationship)
-* *a* (ordinal)
+* *a* (cardinal)
   
         'a' is a singular, equivalent to 1, one, 'a single', etc.
 
@@ -96,7 +96,7 @@ The breakdown, using REST-JSON executor, is as follows:
         is the cog in this case.
 
 * *.* (action separation)
-* *The* (probably ordinal?)
+* *The* (probably cardinal?)
 * *cog* (noun)
 * *should* be (conditional)
 * *gone* (adjective)
