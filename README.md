@@ -4,16 +4,17 @@ Introspective Requirements Language supports Domain Driven Design.
 
 IRL has:
 
-* The IRL Statements
+* The IRL:Domain Defining Dialect
+* The IRL:Requirement Defining Dialect
 * The executor
 
 ## IRL Statements ##
 
 The IRL Langauge defines the domain as well as the requirements of that domain.
 
-### Domain Defining Statements ###
+### Domain Defining (DD) Dialect ###
 
-Domain Defining (DD) Statements define what IRL is talking about.
+The Domain Defining dialect defines what IRL is talking about.
 
 The domain consists of:
 
@@ -34,10 +35,10 @@ corresponding adjectives (created: create; deleted: delete):
 The 2nd statement is forward declaration of a noun, `widgets` which is then
 resolved on the next statement.
 
-### Requirements Defining Statements ###
+### Requirement Defining Statements ###
 
-Requirements Defining (RD) Statements define the requirements that a product
-should do. Examples of such statements in hypotheses format:
+The Requirement Defining (RD) dialect defines the requirements that a product
+should exhibit. Examples of such statements in hypotheses format:
 
 * If I have a cog then I should be able to add a widget to it
 * If I make a cog then I should be able to delete it
@@ -134,3 +135,7 @@ anything. Planned executors are:
 
 * NOOP executor: will output information
 * REST-JSON: will perform REST calls to provided API with particular auth info
+
+## Dependencies ##
+
+IRL heavily leverages the pyparsing module.
