@@ -96,7 +96,7 @@ The breakdown, using REST-JSON executor, is as follows:
         is the cog in this case.
 
 * *.* (action separation)
-* *The* (probably cardinacardinal?)
+* *The* (probably cardinal?)
 * *cog* (noun)
 * *should* be (conditional)
 * *gone* (adjective)
