@@ -54,19 +54,6 @@ Finally there is natural format:
 * I have a cog with a widget. I should be able to delete the cog and the widget
   should be deleted.
 
-## The Domain ##
-
-The domain defines what IRL is talking about. This is the domain specific 
-language (DSL) that the IRL statements are to be parsed on.
-
-The domain consists of:
-
-* Nouns and their relationships
-* Adjectives
-* Verbs
-* Actors
-* Conditionals
-
 ### Parsing a statement ###
 
 Given the statement:
