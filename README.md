@@ -43,44 +43,44 @@ Given the statement:
 
 The breakdown, using REST-JSON executor, is as follows:
 
-* Create (verb)
+* *Create* (verb)
   
         Expects a noun or nouns and will translate to POST.
 
-* a (ordinal)
+* *a* (ordinal)
   
         'a' is a singular, equivalent to 1, one, 'a single', etc.
 
-* cog (noun)
+* *cog* (noun)
 
         A noun that create will be executed on and translates to the API
         resource for a cog, such as /v1.0/cogs.
 
-* with (relationship)
-* a (ordinal)
+* *with* (relationship)
+* *a* (ordinal)
   
         'a' is a singular, equivalent to 1, one, 'a single', etc.
 
-* widget (noun)
+* *widget* (noun)
 
         A noun that create will be executed on and translates to the API
         resource for a widget, such as /v1.0/widgets.
 
-* then (action separation)
-* delete (verb)
+* *then* (action separation)
+* *delete* (verb)
   
         Expects a noun or nouns and will translate to DELETE.
 
-* it (specialized noun)
+* *it* (specialized noun)
   
         Within a statement 'it' selects the most significant noun first which
         is the cog in this case.
 
-* . (action separation)
-* The (probably ordinal?)
-* cog (noun)
-* should be (conditional)
-* gone (adjective)
+* *.* (action separation)
+* *The* (probably ordinal?)
+* *cog* (noun)
+* *should* be (conditional)
+* *gone* (adjective)
   
         Translates to an expected 404 on GET for that resource which is a GET
         on /v1.0/cogs/id.
