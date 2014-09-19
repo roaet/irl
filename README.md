@@ -120,7 +120,8 @@ Examples of what the executor does:
 As the executor is only an interface definition it must be implemented to do
 anything. Planned executors are:
 
-* NOOP executor: will output information
+* NOOP: will output information which is useful for checking IRL statement
+  validity
 * REST-JSON: will perform REST calls to provided API with particular auth info
 * REST-Implement: will attempt to generate a RESTful API that will satisfy the
   given requirements
