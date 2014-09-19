@@ -49,32 +49,32 @@ The breakdown, using REST-JSON executor, is as follows:
 
 * a (ordinal)
   
-  'a' is a singular, equivalent to 1, one, 'a single', etc.
+        'a' is a singular, equivalent to 1, one, 'a single', etc.
 
 * cog (noun)
 
-  A noun that create will be executed on and translates to the API resource for
-  a cog, such as /v1.0/cogs.
+        A noun that create will be executed on and translates to the API
+        resource for a cog, such as /v1.0/cogs.
 
 * with (relationship)
 * a (ordinal)
   
-  'a' is a singular, equivalent to 1, one, 'a single', etc.
+        'a' is a singular, equivalent to 1, one, 'a single', etc.
 
 * widget (noun)
 
-  A noun that create will be executed on and translates to the API resource for
-  a widget, such as /v1.0/widgets.
+        A noun that create will be executed on and translates to the API
+        resource for a widget, such as /v1.0/widgets.
 
 * then (action separation)
 * delete (verb)
   
-  Expects a noun or nouns and will translate to DELETE.
+        Expects a noun or nouns and will translate to DELETE.
 
 * it (specialized noun)
   
-  Within a statement 'it' selects the most significant noun first which is the
-  cog in this case.
+        Within a statement 'it' selects the most significant noun first which
+        is the cog in this case.
 
 * . (action separation)
 * The (probably ordinal?)
@@ -82,8 +82,8 @@ The breakdown, using REST-JSON executor, is as follows:
 * should be (conditional)
 * gone (adjective)
   
-  Translates to an expected 404 on GET for that resource which is a GET on
-  /v1.0/cogs/id.
+        Translates to an expected 404 on GET for that resource which is a GET
+        on /v1.0/cogs/id.
 
 ## The Executor ##
 
