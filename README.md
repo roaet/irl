@@ -96,7 +96,7 @@ The breakdown, using REST-JSON executor, is as follows:
         is the cog in this case.
 
 * *.* (action separation)
-* *The* (probably cardinal?)
+* *The* (probably cardinacardinal?)
 * *cog* (noun)
 * *should* be (conditional)
 * *gone* (adjective)
@@ -122,6 +122,8 @@ anything. Planned executors are:
 
 * NOOP executor: will output information
 * REST-JSON: will perform REST calls to provided API with particular auth info
+* REST-Implement: will attempt to generate a RESTful API that will satisfy the
+  given requirements
 
 ## Dependencies ##
 
