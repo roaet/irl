@@ -10,8 +10,32 @@ IRL has:
 
 ## IRL Statements ##
 
-IRL Statements define the requirements that a product should do. Examples of
-such statements in hypotheses format:
+The IRL Langauge defines the domain as well as the requirements of that domain.
+
+### Domain Defining Statements ###
+
+Domain Defining (DD) Statements define what IRL is talking about.
+
+The domain consists of:
+
+* Nouns and their relationships
+* Adjectives
+* Verbs
+* Actors
+* Conditionals
+
+The following examples of DD statements use a shortcut `CRUD` to define the
+capabilities of the nouns (cog, widget) while simultaneously defining the
+corresponding adjectives (created: create; deleted: delete):
+
+* A cog can be CRUD
+* Networks may contain widgets
+* A subnet can be CRUD
+
+### Requirements Defining Statements ###
+
+Requirements Defining (RD) Statements define the requirements that a product
+should do. Examples of such statements in hypotheses format:
 
 * If I have a cog then the cog should have a widget
 * If I make a cog then I should be able to delete it
@@ -21,6 +45,11 @@ Or similar things in declarative format:
 
 * Create a cog then delete it. The cog should be gone.
 * Create a cog with a widget. Delete the widget. The cog should still exist.
+
+Finally there is natural format:
+
+* I have a cog with a widget. I should be able to delete the cog and the widget
+  should be deleted.
 
 ## The Domain ##
 
