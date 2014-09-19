@@ -1,11 +1,10 @@
 # irl #
 
-DDD supporting Integrated Requirements Language
+Introspective Requirements Language supports Domain Driven Design.
 
 IRL has:
 
 * The IRL Statements
-* The domain
 * The executor
 
 ## IRL Statements ##
@@ -32,12 +31,15 @@ corresponding adjectives (created: create; deleted: delete):
 * Networks may contain widgets
 * A subnet can be CRUD
 
+The 2nd statement is forward declaration of a noun, `widgets` which is then
+resolved on the next statement.
+
 ### Requirements Defining Statements ###
 
 Requirements Defining (RD) Statements define the requirements that a product
 should do. Examples of such statements in hypotheses format:
 
-* If I have a cog then the cog should have a widget
+* If I have a cog then I should be able to add a widget to it
 * If I make a cog then I should be able to delete it
 * If I do not have a cog then I cannot have a widget
 
